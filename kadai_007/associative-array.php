@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <time>連想配列を作って値とキーを出力しよう</time>
+    </head>
+
+    <body>
+        <p>
+            <?php
+            $array = ['name' => 'onion', 'proce' => '200', 'weight'=> '160'];
+
+            print_r($array);
+            ?>
+        </p>
+    </body>
+</html>
